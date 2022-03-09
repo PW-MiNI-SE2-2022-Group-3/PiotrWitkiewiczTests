@@ -37,7 +37,7 @@ class StringCalculatorTest {
 
 	private static Stream<Arguments> singleNumberSource() {
 		return Stream.of(
-				Arguments.of("20", 18),
+				Arguments.of("20", 20),
 				Arguments.of("14", 14),
 				Arguments.of("0", 0)
 		);
